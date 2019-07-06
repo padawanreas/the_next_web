@@ -1,0 +1,82 @@
+/*navbar*/
+
+
+.navbar {
+  height: 40px;
+  overflow: hidden;
+  background-color: black;
+}
+
+.navbar a {
+  float: left;
+  font-size: 13px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown{
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.event,.business {
+  font-size: 13px;
+  border: none;
+  outline: none;
+  color: grey;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  margin-left: -20px;
+}
+button:hover{
+  color: white;
+}
+.dropdown-content {
+  margin-top: 6px;
+  display: none;
+ position: absolute;
+ background-color: black;
+ min-width: 160px;
+ margin-left: -20px;
+ z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: grey;
+  padding: 5px 5px 5px 5px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+
+}
+
+.dropdown-content a:hover {
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.link-topnav {
+  margin-right: 14px;
+}
+.link-topnav a{
+  color:grey;
+}
+.link-topnav a:hover{
+  color:white;
+}
