@@ -1,0 +1,56 @@
+.tnw-text{
+  margin-top: 100px;
+  z-index: 1
+}
+.tnw-text h1{
+  color:white;
+  font-weight: bold;
+  font-size: 150px;
+  padding: 0px 5px 0px 20px;
+  margin-top: -530px;
+}
+.tnw-text h2{
+  color:white;
+  font-weight: lighter;
+  font-size: 20px;
+  margin-top: -240px;
+  margin-left: 200px;
+  text-align: center;
+}
+.tnw-text h3{
+  color:white;
+  font-weight: lighter;
+  font-size: 15px;
+  margin-top: 120px;
+  margin-left: 20px;
+  text-align: left;
+}
+.tnw-text p{
+  color:white;
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-left: 20px;
+  text-align: left;
+}
+.tnw-text h4{
+  color:lightgray;
+  font-weight: lighter;
+  font-size: 13px;
+  margin-top: 10px;
+  margin-left: 20px;
+  text-align: left;
+  text-decoration: none;
+
+}
+.tnw a{
+  text-decoration: none;
+  color:lightgray;
+}
+.tnw a:hover{
+  color:  white;
+}
+.fa-clock,.fa-share-alt{
+  margin-left: 10px;
+  margin-right: 5px;
+}

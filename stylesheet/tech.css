@@ -1,0 +1,40 @@
+.tech-text{
+  margin-top: 350px;
+  z-index: 1
+}
+.tech-text h1{
+  color:white;
+  font-weight: normal;
+  font-size: 15px;
+  padding: 0px 5px 0px 20px;
+  margin-top: -530px;
+}
+.tech-text p{
+  color:white;
+  font-weight: bold;
+  font-size: 27px;
+  margin-top: 20px;
+  margin-left: 20px;
+  text-align: left;
+}
+.tech-text h4{
+  color:lightgray;
+  font-weight: lighter;
+  font-size: 13px;
+  margin-top: -10px;
+  margin-left: 20px;
+  text-align: left;
+  text-decoration: none;
+
+}
+.tech a{
+  text-decoration: none;
+  color:lightgray;
+}
+.tech a:hover{
+  color:  white;
+}
+.fa-clock,.fa-share-alt{
+  margin-left: 10px;
+  margin-right: 5px;
+}
