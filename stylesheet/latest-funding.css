@@ -1,0 +1,59 @@
+.latest-funding{
+  margin-left: 80px;
+  margin-top: 50px;
+  margin-right: 80px;
+}
+.latest-funding a{
+  font-size: 30px;
+  text-decoration: none;
+  color: red;
+}
+.latest-funding a:hover{
+  color: black;
+}
+.fa-chevron-right{
+  margin-left: 10px;
+  font-size: 20px;
+}
+.nav-funding{
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-funding a{
+  font-size: 17px;
+  margin-right: 10px;
+}
+.nav-funding p{
+  color: red;
+  margin-top: -1px;
+  margin-right: 10px;
+}
+.grid-funding{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 20px;
+}
+.subject img,.spring img,.symphony img,.buyandship img{
+  width: 98%;
+  height: 120px;
+}
+.subject a,.spring a,.symphony a,.buyandship a{
+  font-size: 15px;
+  color: grey;
+  margin-left: 8px;
+
+}
+.subject p,.spring p,.symphony p,.buyandship p{
+  font-size: 14px;
+  margin-left: 10px;
+}
+.subject h3,.spring h3,.symphony h3,.buyandship h3{
+  margin-top: -100px;
+  text-align: right;
+  font-size: 25px;
+  color: white;
+  margin-right: 20px;
+}
+.text{
+  margin-top: 45px;
+}

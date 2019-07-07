@@ -24,25 +24,26 @@
 .one img, .two img, .three img, .four img,.five img, .six img, .seven img, .eight img{
   width: 90%;
 }
-.one img,.two img, .three img{
+.one img,.two img, .three img,.five img,.six img,.seven img,.eight img{
   height: 148px;
 }
+
 .two img, .three img, .four img{
   margin-right: 10px;
 }
-.one a, .two a,.three a,.four a{
+.one a, .two a,.three a,.four a,.five a,.six a,.seven a,.eight a{
   color:black;
   font-size: 16px;
   font-weight: bold;
 }
-.one p,.two p,.three p,.four p{
+.one p,.two p,.three p,.four p,.five p,.six p,.seven p,.eight p{
   margin-top: 5px;
 }
-.one a:hover{
+.one a:hover, .two a:hover,.three a:hover,.four a:hover,.five a:hover,.six a:hover,.seven a:hover,.eight a:hover{
   color: red;
   text-decoration: underline;
 }
-.one h4,.two h4,.three h4,.four h4,.link a{
+.one h4,.two h4,.three h4,.four h4,.five h4,.six h4,.seven h4,.eight h4,.link a{
   color: grey;
   font-size: 13px;
   margin-top: -10px;
