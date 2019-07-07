@@ -1,5 +1,54 @@
 .grid-last{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-column-gap: 30px;
+  grid-column-gap: 20px;
+
+}
+.latest-new{
+  margin-left: 80px;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+.latest-new a{
+  font-size: 30px;
+  text-decoration: none;
+  color: red;
+}
+.latest-new a:hover{
+  color: black;
+}
+.fa-chevron-right{
+  margin-left: 10px;
+  font-size: 20px;
+}
+.one img, .two img, .three img, .four img,.five img, .six img, .seven img, .eight img{
+  width: 90%;
+}
+.one img,.two img, .three img{
+  height: 148px;
+}
+.two img, .three img, .four img{
+  margin-right: 10px;
+}
+.one a, .two a,.three a,.four a{
+  color:black;
+  font-size: 16px;
+  font-weight: bold;
+}
+.one p,.two p,.three p,.four p{
+  margin-top: 5px;
+}
+.one a:hover{
+  color: red;
+  text-decoration: underline;
+}
+.one h4,.two h4,.three h4,.four h4,.link a{
+  color: grey;
+  font-size: 13px;
+  margin-top: -10px;
+  font-weight: normal;
+}
+.link a:hover{
+  color: dimgray;
+  text-decoration: none;
 }
